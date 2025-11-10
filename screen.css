@@ -1,4 +1,68 @@
 /* Add screen styles below */
 a.active {
-    font-weight: bold;
+font-weight: bold;
+}
+
+.navbar {
+    background-color: #aa0009;
+}
+.navbar-nav {
+    margin: 0 auto;
+}
+.nav-link {
+    color: rgb(255, 209, 25);
+}
+
+.nav-link:hover{
+    color: rgb(255, 209, 25);
+    font-weight: 700;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #aa0009;
+    color: white;
+    height: 90vh;
+    padding: 0 5%;
+}
+.main-text {
+    flex: 1;
+    font-family: 'Franklin Gothic Medium','Arial', sans-serif;
+}
+.main-text h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+}
+.main-text .inferno {
+    color: rgb(255, 209, 25);
+    font-weight: 700;
+}
+
+.main img {
+    flex: 1;
+    object-fit: cover;
+    height: 90vh;
+    border-left: 5px solid #aa0009;
+}
+
+.sauces {
+    padding: 4rem 2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.sauces h2 {
+    margin-bottom: 2rem;
+}
+.card:hover {
+    color: white;
+}
+.card-1:hover {
+    background-color: rgb(243, 118, 29);
+}
+.card-2:hover {
+    background-color: rgb(181, 0, 0);
+}
+.card-3:hover {
+    background-color: rgb(53, 19, 19);
 }

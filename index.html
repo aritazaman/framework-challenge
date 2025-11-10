@@ -3,17 +3,51 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
+    <title>Inferno Hot Sauce</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="screen.css">
+
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
+  <nav class="navbar navbar-expand-lg fs-3">
+    <ul class="navbar-nav">
+      <li class="nav-item"><a class="nav-link" href="#">Inferno</a></li>
+    </ul>
+  </nav>
+
+  <section class="main">
+    <div class="main-text">
+      <h1>Turn Up the Heat with <span class="inferno">Inferno</span></h1>
+      <p class="mt-5 w-75 fs-5">Inferno is more than just a hot sauce, 
+      it’s a flavor experience that ignites your taste buds with bold spice and smoky depth. One drop turns any meal into pure fire.</p>
+    </div>
+    <img src="sauce.jpg">
+  </section>
+
+  <section class="sauces text-center">
+    <h2>Our Sauces</h2>
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="col-md-4">
+          <div class="card card-1 p-4">
+            <h5 class="card-title">Inferno Original</h5>
+            <p class="card-text">A balanced kick of chili and garlic — our signature classic.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-2 p-4">
+            <h5 class="card-title">Firestorm</h5>
+            <p class="card-text">A fiery red pepper blend that brings serious heat.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card card-3 p-4">
+            <h5 class="card-title">Midnight Burn</h5>
+            <p class="card-text">Smoky, intense, and unforgettable — made for the brave.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   </body>
 </html>
